@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html ng-app="app" ng-controller="GlobalPageCtrl">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>NightKosh</title>
+    <link rel="icon" href="images/favicon.jpg" type="image/x-icon">
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+
+    <link href="css/reset.css" rel="stylesheet" type="text/css"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+
+    <script src="js/libs/jquery-2.1.3.min.js"></script>
+    <script src="js/libs/angular.min.js"></script>
+
+    <script src="js/application.js"></script>
+    <script src="js/global.js"></script>
+
+    <script src="js/about.js"></script>
+    <script src="js/mods.js"></script>
+    <script src="js/certificates.js"></script>
+
+</head>
+<body>
+<header>
+    <div class="content">
+        <div id="lang_bar">
+            <a id="en_link" ng-href="{{globalData.enLink}}"></a>
+            <a id="ru_link" ng-href="{{globalData.ruLink}}"></a>
+        </div>
+        <ul id="menu">
+            <li><a ng-href="{{globalData.menuAboutLink}}">{{globalData.menu_about}}</a></li>
+            <li><a ng-href="{{globalData.menuModsLink}}">{{globalData.menu_mods}}</a></li>
+            <li><a ng-href="{{globalData.menuCertificatesLink}}">{{globalData.menu_certificates}}</a></li>
+        </ul>
+        <ul id="sub_menu">
+            <li><a href=""><img src="images/facebook-24.png" title="{{globalData.facebook}}"/></a></li>
+            <li><a href=""><img src="images/youtube-24.png" title="{{globalData.youtube}}"/></a></li>
+            <li><a href="https://twitter.com/NightKosh">
+                <img src="images/twitter-24.png" title="{{globalData.twitter}}"/></a></li>
+            <li><a href="https://github.com/NightKosh"><img src="images/github-3-24.png" title="{{globalData.github}}"/></a>
+            </li>
+            <li><a href="https://github.com/NightKosh">
+                <img src="images/github-24.png" title="{{globalData.github}}"/></a></li>
+            <li><a href="https://steamcommunity.com/id/NightKosh">
+                <img src="images/steam-24.png" title="{{globalData.steam}}"/></a></li>
+        </ul>
+    </div>
+</header>
+
+<div id="wrapper">
+    <div class="content" ng-include="contentTemplatePath"></div>
+</div>
+
+<footer>
+    {{globalData.footer}}
+</footer>
+</body>
+</html>

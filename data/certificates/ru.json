@@ -1,0 +1,49 @@
+{
+    "java" : {
+        "title" : "Java",
+        "oca" : {
+            "title" : "Oracle Certified Associate - Java SE 8",
+            "description" : "",
+            "tag1" : "java",
+            "tag2" : "oracle"
+        }
+    },
+    "courses_s" : {
+        "title" : "Курсы с сертификатами",
+        "ml" : {
+            "title" : "Машинное обучение",
+            "description" : "Этот курс рассказывает про наболее эффективные алгоритмы машинного обучения, получите опыт их практического применения, узнаете как заставить их работать на вас. Что более важно, вы научитесь не только теоретическим основам машинного обучения, но также и практическим ноу-хау, требующимся для быстрого и эффективного применения алгоритмов для решения новый задач. Также вы ознакомитесь с лучшими инновационными практиками Кремниевой Долины в области машинного обучения и искусственного интеллекта.",
+            "tag1" : "машинное обучени",
+            "tag2" : "octave",
+            "tag3" : "стэнфордский университет"
+        },
+        "android1" : {
+            "title" : "Programming Mobile Applications for Android Handheld Systems: Part 1",
+            "description" : "This course introduces you to the design and implementation of Android applications for mobile devices. You will develop an app from scratch, assuming a basic knowledge of Java, and learn how to set up Android Studio, work with various Activities and create simple user interfaces to make your apps run smoothly.",
+            "tag1" : "android",
+            "tag2" : "java",
+            "tag2" : "мэрилендский университет в колледж-парке"
+        },
+        "python" : {
+            "title" : "Programming for Everybody (Python)",
+            "description" : "This course aims to teach everyone the basics of programming computers using Python. We cover the basics of how one constructs a program from a series of simple instructions in Python. The course has no pre-requisites and avoids all but the simplest mathematics.",
+            "tag1" : "python",
+            "tag2" : "мичиганский университет"
+        }
+    },
+    "courses_n" : {
+        "title" : "Courses without setification",
+        "alg1" : {
+            "title" : "Algorithms, Part I",
+            "description" : "This course covers the essential information that every serious programmer needs to know about algorithms and data structures, with emphasis on applications and scientific performance analysis of Java implementations. Part I covers elementary data structures, sorting, and searching algorithms.",
+            "tag1" : "алгоритмы",
+            "tag2" : "принстонский университет"
+        },
+        "alg2" : {
+            "title" : "Algorithms, Part II",
+            "description" : "This course covers the essential information that every serious programmer needs to know about algorithms and data structures, with emphasis on applications and scientific performance analysis of Java implementations. Part II focuses on graph- and string-processing algorithms.",
+            "tag1" : "алгоритмы",
+            "tag2" : "принстонский университет"
+        }
+    }
+}

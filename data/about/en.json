@@ -1,0 +1,78 @@
+{
+    "title" : "About mod",
+    "line1" : "What is Sophisticated Wolves? It's a mod that aims to improve wolves in the games through a series of gameplay tweaks, AI improvements, and added features. The focus is not to have overpowered items or crazy abilities, but rather balanced additions that make sense in the world of MC. Essentially, wolves should be able to better respond to your actions and take care of themselves, so you don't have to consider them a liability when mining, exploring or fighting.",
+    "line2" : "This is an updated and reworked version of metroidfood's \"Sophisticated Wolves\" mod. Mostly it is the same as metroidfood's version except some new features and improvements.",
+    "line3" : "In this version \"Sophisticated wolves\" are an own type of wolves, which spawned separately from \"vanilla\" wolves. You can find them in the world or make your tamed \"vanilla\" wolves sophisticated. Your tamed \"vanilla\" wolves will become sophisticated if you give them a \"dog treat\".",
+    "line4" : "Like in an \"original\" version you can used name tags to give your wolf a name, but in this version, you can used it to give name to a cat and \"vanilla\" wolf too.",
+    "line5" : "Furthermore this version of the mod must be compatible with such mods as Mo' Creatures.",
+    "nametags" : {
+        "title" : "Nametags",
+        "line1" : "One of the most oft-requested features, names to differentiate between your pets. Craft a leather Dog Tag and you'll be able to give your pet a proper title (16 chars max). They behave like normal player nametags when standing but are not visible through walls when sitting.",
+        "line2" : "Nameplates will also change color according to the health of your wolf. White = full health, and it gets progressively more red as a wolf's health goes down."
+    },
+    "breeding" : {
+        "title" : "Breeding",
+        "line1" : "No more accidental breeding, wolves now have a new item to get them in the mood. Feed two tamed wolves a Dog Treat made out of two wheat and a porkchop (raw or cooked) and they'll produce a puppy. Puppies are automatically tamed and will inherit a parent's breed."
+    },
+    "biomeWolves" : {
+        "title" : "Biome-Specific Wolves",
+        "line1" : "Wolves' appearance will vary depending on the biome they spawn in. Taiga wolves are the classic gray, while forest wolves are light brown. You can also find black and dark brown wolves, but these colors are harder to find than their lighter counterparts."
+    },
+    "creeper" : {
+        "title" : "Creeper Avoidance",
+        "line1" : "Wolves are loyal, not stupid. If they see a Creeper about to explode they'll scatter regardless of what you're doing.",
+        "line2" : "Furthermore wolves will try to hold distance of 3 blocks from creepers(in any state)."
+    },
+    "evil" : {
+        "title" : "Evil Detecting Dogs",
+        "line1" : "Though they won't attack Creepers, wolves will growl to alert you if one is nearby."
+    },
+    "extinguishing" : {
+        "title" : "Extinguishing",
+        "line1" : "Tired of your wolves burning to death? So are they. If they happen to catch on fire, they'll stop and shake to put themselves out."
+    },
+    "waterproof" : {
+        "title" : "Waterproof Wolves",
+        "line1" : "No more death of water! Drowning wolves will be teleported to its owner."
+    },
+    "cacti" : {
+        "title" : "Cactiproof Wolves",
+        "line1" : "Cacti can't hurt wolves anymore(can be disabled)"
+    },
+    "collision" : {
+        "title" : "Better collision",
+        "line1" : "Wolves can't collide with each other so they will not be doomed to fall (in a lava or from a cliff) by each other anymore."
+    },
+    "friendlyFire" : {
+        "title" : "Friendly fire",
+        "line1" : "Wolves can be hit by its owner only when owner is sneaking.(It will protect wolves from accidental hit)"
+    },
+    "respanw" : {
+        "title" : "Respawning Wolves",
+        "line1" : "Like ocelots, wolves will spawn sporadically in Taiga and Forest biomes and only become persistent when tamed. This also means they won't stick around if you wander off so be sure to bring bones with you if you're looking for wolves!"
+    },
+    "feeding" : {
+        "title" : "Feeding",
+        "line1" : "Wolves will now also gobble down fish and gain the max amount of health whether their meat is cooked or raw. In addition, they will no longer wander around while begging, so you don't have to chase them down trying to feed them."
+    },
+    "canceling" : {
+        "title" : "Attack Pausing/Canceling",
+        "line1" : "Crouching with Shift will make any wolves currently attacking a creature stand still and stop attacking. Holding down Shift for around 5 seconds will cancel their attack entirely, so they don't slaughter your flock of sheep because you accidentally punched them. Wolves will also lose interest in a target if you're far enough away from it when they teleport to you."
+    },
+    "mining" : {
+        "title" : "Peace of Mining",
+        "line1" : "Wolves will no longer wander around and bump into you when you're mining or on a ladder, instead they'll wait patiently for you to finish (unless you're being attacked by monsters of course)."
+    },
+    "death" : {
+        "title" : "Death message",
+        "line1" : "You'll receive wolf \"death message\" at its death."
+    },
+    "tweak" : {
+        "title" : "Tweakable",
+        "line1" : "Want to use a texture pack instead of biome-specific wolves? Don't like wild wolves despawning? Want to set breeding back to default? Change it in the config file, located in your .minecraft/config folder."
+    },
+    "miscellaneous" : {
+        "title" : "Miscellaneous Improvements",
+        "line1" : "Smarter teleportation, fire avoidance, more responsive interactions, and many other various bug fixes and tweaks have been made to improve your experience with wolves. Check out the changelog for more detailed notes."
+    }
+}

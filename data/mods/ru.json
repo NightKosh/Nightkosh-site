@@ -1,0 +1,80 @@
+{
+    "minecraft" : {
+        "title" : "Моды для \"Minecraft\"",
+        "gs" : {
+            "title" : "Gravestone mod",
+            "description" : "This mod adds gravestones to the game, which \"spawns\" at player/villager/dog/cat death. Also this mod generates cemeteries in some villages, and the \"Wither's catacombs\". This is a new huge structure, like stronghold, where you can find a lot of loot, dangerous adventures and a \"Wither Boss\" at the end.",
+            "tag1" : "java",
+            "tag2" : "minecraft"
+        },
+        "sw" : {
+            "title" : "Sophisticated wolves",
+            "description1" : "Sophisticated Wolves - это мод, призваный улучшить волков, серией различных фиксов их поведения, новыми повадками и способностями. С этим модом волки будут куда более смышлёней, чем ранее. Их поведение будет более логично и предсказуемо, и, как результат, они будут в состоянии сам о себе позаботиться в большинстве игровых ситуаций.",
+            "description2" : "Это обновлённая и переработанная версия первоначального мода(от metroidfood'а).",
+            "tag1" : "java",
+            "tag2" : "minecraft"
+        },
+        "lb" : {
+            "title" : "Lava boat",
+            "description" : "Этот мод добавляет несколько новых лодок: \"укреплённая лодка\" - не разрушимая при столкновениях, \"лавовая лодка\" способная плыть по лаве, и \"большие лодки\" используемые для транспортировки животных(животные должны быть приручены или же быть на поводке).",
+            "tag1" : "java",
+            "tag2" : "minecraft"
+        },
+        "pa" : {
+            "title" : "Pristine alveary",
+            "description1" : "Это небольшой аддон к моду \"Forestry\". Он добавляет несколько новых компонентов улья.",
+            "description2" : "1) Стабилизатор пчёл низких пород - предотвращает смерть пчёл низких пород.",
+            "description3" : "2) Очиститель - превращает пчёл низких пород в чистокровных. Для работы требуется амброзия.",
+            "description4" : "3) Подавитель Жизненного Цикла - уменьшает длительность жизни пчёл до 1 итерации.",
+            "tag1" : "java",
+            "tag2" : "minecraft",
+            "tag3" : "forestry"
+        }
+    },
+    "dontstarve" : {
+        "title" : "Моды для \"Don't Starve\"",
+        "bc" : {
+            "title" : "Better clothes",
+            "description" : "Этот мод предотвращает изнашевание одежды в процессе ношения.",
+            "tag1" : "lua",
+            "tag2" : "don't starve",
+            "tag3" : "don't starve together"
+        },
+        "opc" : {
+            "title" : "OPcane Multi-Tool",
+            "description1" : "Этот мод добавляет новые возможности для трости. Она сильнее увеличивает скорость, позволяет рубить деревья, раскалывать камни, копать, и срубать тросник/кусты! Так же с этим модом у трости увеличен урон до уровня копья. Скорость Честера и Пакима так же увеличена!",
+            "description2" : "Это обновлённая версия мода \"OPcane Multi-Tool\" от NonBritGit.",
+            "tag1" : "lua",
+            "tag2" : "don't starve"
+        },
+        "bfe" : {
+            "title" : "Books for everyone",
+            "description1" : "С этим модом все персонажи получают возможность крафтить и использовать книги.",
+            "description2" : "Это обновлённая версия мода \"Books for everyone Reign of giant DLC\" от EpicAnimationNipple",
+            "tag1" : "lua",
+            "tag2" : "don't starve"
+        },
+        "sfe" : {
+            "title" : "Boats for everyone",
+            "description" : "Этот мод позволяет крафтить и использовать доску для сёрфинга и 'Sea Legs' всем персонажам.",
+            "tag1" : "lua",
+            "tag2" : "don't starve"
+        },
+        "hc" : {
+            "title" : "Craftable Honeycomb",
+            "description" : "Этот мод позволяет крафтить соты.",
+            "tag1" : "lua",
+            "tag2" : "don't starve"
+        }
+    },
+    "other" : {
+        "title" : "Прочее",
+        "pacman" : {
+            "title" : "Pacman",
+            "description" : "",
+            "tag1" : "java script",
+            "tag2" : "html5",
+            "tag3" : "canvas"
+        }
+    }
+}

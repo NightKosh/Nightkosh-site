@@ -1,0 +1,227 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  color: #15061a;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #15061a;
+  font-weight: normal;
+  text-decoration: none;
+}
+a:link {
+  color: #15061a;
+  font-weight: normal;
+  text-decoration: none;
+}
+a:visited {
+  color: #15061a;
+  font-weight: normal;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+p {
+  margin: 0 0 5px 0;
+}
+img {
+  border: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #15061a;
+  font-weight: normal;
+}
+h1 {
+  font-size: 48px;
+  margin: 0 0 30px;
+  padding: 5px 0;
+}
+h2 {
+  font-size: 30px;
+  margin: 0 0 25px;
+  padding: 5px 0;
+}
+h3 {
+  font-size: 24px;
+  margin: 0 0 12px;
+  padding: 0;
+}
+h4 {
+  font-size: 18px;
+  margin: 0 0 15px;
+  padding: 0;
+}
+h5 {
+  font-size: 16px;
+  margin: 0 0 10px;
+  padding: 0;
+}
+h6 {
+  font-size: 12px;
+  margin: 0 0 5px;
+  padding: 0;
+}
+header {
+  background-color: #272727;
+  color: white;
+  width: 100%;
+}
+header #lang_bar {
+  float: right;
+  height: 64px;
+  margin: -17px 20px 0 -52px;
+  width: 32px;
+}
+header #lang_bar a {
+  background-image: url("../images/lang_sprite.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+}
+header #lang_bar a#en_link {
+  background-position: 0 0;
+}
+header #lang_bar a#ru_link {
+  background-position: 0 -32px;
+}
+header .content {
+  height: 32px;
+  z-index: 1;
+}
+header .content ul li {
+  display: inline-block;
+  list-style: none;
+}
+header .content #menu {
+  margin: 0;
+  padding: 0 0 22px;
+  text-align: center;
+}
+header .content #menu li {
+  border-right: 1px solid white;
+  padding: 0 15px;
+}
+header .content #menu li:last-child {
+  border-right: none;
+}
+header .content #menu a {
+  color: white;
+  font-size: 25px;
+}
+header .content #sub_menu {
+  background: url(../images/templatemo_footer_header_right.png) right;
+  display: inline-block;
+  height: 32px;
+  padding: 0 25px 0 0;
+  position: absolute;
+  right: 0;
+}
+header .content #sub_menu::before {
+  background: url(../images/templatemo_footer_header_left.png);
+  content: "";
+  display: block;
+  height: 32px;
+  margin: 0 0 0 -27px;
+  position: absolute;
+  width: 27px;
+}
+header .content #sub_menu li {
+  margin: 5px 5px 0 0;
+}
+header .content #sub_menu li:last-child {
+  margin-right: 0;
+}
+#wrapper {
+  color: #15061a;
+  overflow: hidden;
+  width: 100%;
+  min-height: 100%;
+  margin: -104px 0 0;
+  padding-top: 104px;
+  box-sizing: border-box;
+}
+#wrapper .banner {
+  background-size: cover;
+  background: no-repeat center center no-repeat;
+  border-radius: 15px;
+  height: 200px;
+  margin-bottom: 25px;
+  width: 100%;
+}
+#wrapper .mods li {
+  margin-bottom: 25px;
+  overflow: hidden;
+  width: 100%;
+}
+#wrapper .mods li a {
+  color: #15061a;
+}
+#wrapper .mods li > a:first-child {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 15px;
+  border: 1px solid #272727;
+  display: block;
+  float: left;
+  height: 150px;
+  margin-right: 20px;
+  width: 150px;
+}
+#wrapper .mods h3 > a.info {
+  display: inline-block;
+  width: 24px;
+  height: 28px;
+  vertical-align: -3px;
+  float: right;
+  background: url('../images/info-24.png') center bottom no-repeat;
+}
+#wrapper .mods .tags {
+  text-align: right;
+}
+#wrapper .mods .tags span {
+  background: url('../images/tag.png') no-repeat left center;
+  display: inline-block;
+  height: 24px;
+  margin: 0 5px;
+  padding-left: 28px;
+  text-decoration: underline;
+}
+#wrapper #photo {
+  border-radius: 15px;
+  float: left;
+  margin-right: 20px;
+  width: 200px;
+}
+.content {
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 960px;
+  position: relative;
+}
+footer {
+  background: #181818;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+  margin-top: -9px;
+}
+#mc_banner {
+  background-image: url('../images/data/mc_banner.jpg');
+}
+#ds_banner {
+  background-image: url('../images/data/ds_banner.png');
+}

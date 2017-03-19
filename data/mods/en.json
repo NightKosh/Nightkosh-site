@@ -1,0 +1,80 @@
+{
+    "minecraft" : {
+        "title" : "Minecraft mods",
+        "gs" : {
+            "title" : "Gravestone mod",
+            "description" : "This mod adds gravestones to the game, which \"spawns\" at player/villager/dog/cat death. Also this mod generates cemeteries in some villages, and the \"Wither's catacombs\". This is a new huge structure, like stronghold, where you can find a lot of loot, dangerous adventures and a \"Wither Boss\" at the end.",
+            "tag1" : "java",
+            "tag2" : "minecraft"
+        },
+        "sw" : {
+            "title" : "Sophisticated wolves",
+            "description1" : "Sophisticated Wolves is a mod that aims to improve wolves in the game through a series of gameplay tweaks, AI improvements, and added features. The focus is not to have overpowered items or crazy abilities, but rather balanced additions that make sense in the world of MC",
+            "description2" : "This is an updated and reworked version of metroidfood's \"Sophisticated Wolves\" mod.",
+            "tag1" : "java",
+            "tag2" : "minecraft"
+        },
+        "lb" : {
+            "title" : "Lava boat",
+            "description" : "This mod add new boats: \"reinforced boat\" which can't be destroyed in a clash, \"lava boat\" which can swim in lava, and \"large boats\" which can be used to transport animals(pet must be tamed or leashed).",
+            "tag1" : "java",
+            "tag2" : "minecraft"
+        },
+        "pa" : {
+            "title" : "Pristine alveary",
+            "description1" : "This is a small Forestry addon. It adds three new alveary components.",
+            "description2" : "1) Ignoble Stabilizator - add this block to your alveary to prevent death of ignoble bees.",
+            "description3" : "2) Pristinizator - this block can convert your ignoble bees to pristine bees. It requires ambrosia to work.",
+            "description4" : "3) Life Reducer - this block reduce bees life cycle to one iteration.",
+            "tag1" : "java",
+            "tag2" : "minecraft",
+            "tag3" : "forestry"
+        }
+    },
+    "dontstarve" : {
+        "title" : "Don't Starve mods",
+        "bc" : {
+            "title" : "Better clothes",
+            "description" : "This mod makes clothes imperishable, so you can use it infinitely long.",
+            "tag1" : "lua",
+            "tag2" : "don't starve",
+            "tag3" : "don't starve together"
+        },
+        "opc" : {
+            "title" : "OPcane Multi-Tool",
+            "description1" : "This mod override cane, so it increases walking speed, can chops, digs, mines and hacks! Hits like a spear. Chester and Packim keeps up!",
+            "description2" : "This is updated version of NonBritGit's OPcane Multi-Tool mod. It is compatible with RoG, SW and original version of game(without any addons)",
+            "tag1" : "lua",
+            "tag2" : "don't starve"
+        },
+        "bfe" : {
+            "title" : "Books for everyone",
+            "description1" : "With this mod every characters in game will be able to craft and use all 5 books that were only available to wickerbottom.",
+            "description2" : "This is updated version of EpicAnimationNipple's \"Books for everyone Reign of giant DLC\" mod.",
+            "tag1" : "lua",
+            "tag2" : "don't starve"
+        },
+        "sfe" : {
+            "title" : "Boats for everyone",
+            "description" : "This mod allows to craft and use surfboard and the 'Sea Legs' for any characters.",
+            "tag1" : "lua",
+            "tag2" : "don't starve"
+        },
+        "hc" : {
+            "title" : "Craftable Honeycomb",
+            "description" : "This mod adds honeycomb crafting recipe to the game.",
+            "tag1" : "lua",
+            "tag2" : "don't starve"
+        }
+    },
+    "other" : {
+        "title" : "Other",
+        "pacman" : {
+            "title" : "Pacman",
+            "description" : "",
+            "tag1" : "java script",
+            "tag2" : "html5",
+            "tag3" : "canvas"
+        }
+    }
+}
