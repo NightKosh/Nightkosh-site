@@ -22,7 +22,7 @@
             "description" : "This course introduces you to the design and implementation of Android applications for mobile devices. You will develop an app from scratch, assuming a basic knowledge of Java, and learn how to set up Android Studio, work with various Activities and create simple user interfaces to make your apps run smoothly.",
             "tag1" : "android",
             "tag2" : "java",
-            "tag2" : "мэрилендский университет в колледж-парке"
+            "tag3" : "мэрилендский университет в колледж-парке"
         },
         "python" : {
             "title" : "Programming for Everybody (Python)",
