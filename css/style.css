@@ -121,19 +121,25 @@ header .content #menu a {
   font-size: 25px;
 }
 header .content #sub_menu {
-  background: url(../images/templatemo_footer_header_right.png) right;
+  background-color: #272727;
   display: inline-block;
   height: 32px;
-  padding: 0 25px 0 0;
   position: absolute;
-  right: 0;
+  right: 28px;
 }
 header .content #sub_menu::before {
-  background: url(../images/templatemo_footer_header_left.png);
+  background: url(../images/menu.png) left top no-repeat;
   content: "";
-  display: block;
   height: 32px;
   margin: 0 0 0 -27px;
+  position: absolute;
+  width: 27px;
+}
+header .content #sub_menu::after {
+  background: url(../images/menu.png) right top no-repeat;
+  content: "";
+  height: 32px;
+  margin: 0 -27px 0 0;
   position: absolute;
   width: 27px;
 }
