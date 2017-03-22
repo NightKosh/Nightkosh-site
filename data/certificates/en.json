@@ -15,20 +15,20 @@
             "description" : "",
             "tag1" : "machine learning",
             "tag2" : "octave",
-            "tag3" : "������������ �����������"
+            "tag3" : "stanford university"
         },
         "android1" : {
             "title" : "Programming Mobile Applications for Android Handheld Systems: Part 1",
             "description" : "This course introduces you to the design and implementation of Android applications for mobile devices. You will develop an app from scratch, assuming a basic knowledge of Java, and learn how to set up Android Studio, work with various Activities and create simple user interfaces to make your apps run smoothly.",
             "tag1" : "android",
             "tag2" : "java",
-            "tag3" : "������������ ����������� � �������-�����"
+            "tag3" : "university of maryland, college park"
         },
         "python" : {
             "title" : "Programming for Everybody (Python)",
             "description" : "This course aims to teach everyone the basics of programming computers using Python. We cover the basics of how one constructs a program from a series of simple instructions in Python. The course has no pre-requisites and avoids all but the simplest mathematics.",
             "tag1" : "python",
-            "tag2" : "����������� �����������"
+            "tag2" : "university of michigan"
         }
     },
     "courses_n" : {
