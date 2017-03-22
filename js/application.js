@@ -23,7 +23,7 @@ app.service('PageService', function() {
     var pageParams = getJsonFromUrl(pageParams);
 
     this.getLinkWithLangParams = function (link) {
-        if (pageParams.lang != "en") {
+        if (pageParams.lang != DEFAULT_PARAMS.lang) {
         	link += (link.indexOf("?") == -1) ? "?" : "&";
             link += "lang=" + pageParams.lang;
         }
