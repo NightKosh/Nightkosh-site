@@ -138,7 +138,7 @@ header {
       position: absolute;
       right: 28px;
       &::before {
-        background: url(../images/menu.png) left top no-repeat;
+        background: url('../images/menu.png') left top no-repeat;
         content: "";
         height: 32px;
         margin: 0 0 0 -27px;
@@ -146,7 +146,7 @@ header {
         width: 27px;
       }
       &::after {
-        background: url(../images/menu.png) right top no-repeat;
+        background: url('../images/menu.png') right top no-repeat;
         content: "";
         height: 32px;
         margin: 0 -27px 0 0;
@@ -157,6 +157,48 @@ header {
         margin: 5px 5px 0 0;
         &:last-child {
           margin-right: 0;
+        }
+        a {
+          display: inline-block;
+          width: 24px;
+          height: 24px;
+          background-repeat: no-repeat;
+          background-position-x: 0;
+          background-position-y: 0;
+          background-image: url('../images/menu_sprite.png');
+          &.facebook {
+          }
+          &.vk {
+            background-position-y: -24px;
+          }
+          &.youtube {
+            background-position-x: -24px;
+          }
+          &.twitch {
+            background-position-x: -24px;
+            background-position-y: -24px;
+          }
+          &.linkedin {
+            background-position-x: -48px;
+          }
+          &.upwork {
+            background-position-x: -48px;
+            background-position-y: -24px;
+          }
+          &.twitter {
+            background-position-x: -72px;
+          }
+          &.patreon {
+            background-position-x: -72px;
+            background-position-y: -24px;
+          }
+          &.github {
+            background-position-x: -96px;
+          }
+          &.steam {
+            background-position-x: -96px;
+            background-position-y: -24px;
+          }
         }
       }
     }

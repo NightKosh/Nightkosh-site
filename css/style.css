@@ -128,7 +128,7 @@ header .content #sub_menu {
   right: 28px;
 }
 header .content #sub_menu::before {
-  background: url(../images/menu.png) left top no-repeat;
+  background: url('../images/menu.png') left top no-repeat;
   content: "";
   height: 32px;
   margin: 0 0 0 -27px;
@@ -136,7 +136,7 @@ header .content #sub_menu::before {
   width: 27px;
 }
 header .content #sub_menu::after {
-  background: url(../images/menu.png) right top no-repeat;
+  background: url('../images/menu.png') right top no-repeat;
   content: "";
   height: 32px;
   margin: 0 -27px 0 0;
@@ -148,6 +148,46 @@ header .content #sub_menu li {
 }
 header .content #sub_menu li:last-child {
   margin-right: 0;
+}
+header .content #sub_menu li a {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-position-x: 0;
+  background-position-y: 0;
+  background-image: url('../images/menu_sprite.png');
+}
+header .content #sub_menu li a.vk {
+  background-position-y: -24px;
+}
+header .content #sub_menu li a.youtube {
+  background-position-x: -24px;
+}
+header .content #sub_menu li a.twitch {
+  background-position-x: -24px;
+  background-position-y: -24px;
+}
+header .content #sub_menu li a.linkedin {
+  background-position-x: -48px;
+}
+header .content #sub_menu li a.upwork {
+  background-position-x: -48px;
+  background-position-y: -24px;
+}
+header .content #sub_menu li a.twitter {
+  background-position-x: -72px;
+}
+header .content #sub_menu li a.patreon {
+  background-position-x: -72px;
+  background-position-y: -24px;
+}
+header .content #sub_menu li a.github {
+  background-position-x: -96px;
+}
+header .content #sub_menu li a.steam {
+  background-position-x: -96px;
+  background-position-y: -24px;
 }
 #wrapper {
   color: #15061a;
