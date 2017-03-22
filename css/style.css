@@ -76,6 +76,7 @@ header {
   background-color: #272727;
   color: white;
   width: 100%;
+  min-width: 960px;
 }
 header #lang_bar {
   float: right;
@@ -193,6 +194,7 @@ header .content #sub_menu li a.steam {
   color: #15061a;
   overflow: hidden;
   width: 100%;
+  min-width: 960px;
   min-height: 100%;
   margin: -104px 0 0;
   padding-top: 104px;
@@ -269,6 +271,7 @@ footer {
   padding: 10px 0;
   text-align: center;
   width: 100%;
+  min-width: 960px;
   margin-top: -9px;
 }
 #mc_banner {
