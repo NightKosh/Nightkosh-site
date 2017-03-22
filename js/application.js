@@ -1,14 +1,13 @@
-
 var app = angular.module("app", []);
 
-app.service('PageService', function() {
+app.service('PageService', function () {
     var DEFAULT_PARAMS = {
         page: "about",
         lang: "en"
     };
-    
+
     var getJsonFromUrl = function (result) {
-    	var result = {};
+        var result = {};
         Object.assign(result, DEFAULT_PARAMS);
         var query = location.search.substr(1);
         query.split("&").forEach(function (part) {
@@ -24,7 +23,7 @@ app.service('PageService', function() {
 
     this.getLinkWithLangParams = function (link) {
         if (pageParams.lang != DEFAULT_PARAMS.lang) {
-        	link += (link.indexOf("?") == -1) ? "?" : "&";
+            link += (link.indexOf("?") == -1) ? "?" : "&";
             link += "lang=" + pageParams.lang;
         }
         return link;
@@ -57,31 +56,31 @@ app.service('PageService', function() {
         return (str.length != 0) ? "/?" + str : "/";
     };
 
-    this.getTemplatePath = function() {
-    	return "template/" +
-    		((pageParams.page) ? pageParams.page : DEFAULT_PARAMS.page) +
-    		"/" +
-    		((pageParams.sub_page) ? pageParams.sub_page : "index") +
-    		".html";
+    this.getTemplatePath = function () {
+        return "template/" +
+            ((pageParams.page) ? pageParams.page : DEFAULT_PARAMS.page) +
+            "/" +
+            ((pageParams.sub_page) ? pageParams.sub_page : "index") +
+            ".html";
     };
 
-    this.getSubMenuTemplatePath = function() {
-        return "template/" + 
-        ((pageParams.page) ? pageParams.page : DEFAULT_PARAMS.page) + 
-        "/submenu.html";
+    this.getSubMenuTemplatePath = function () {
+        return "template/" +
+            ((pageParams.page) ? pageParams.page : DEFAULT_PARAMS.page) +
+            "/submenu.html";
     };
 
-    this.getDataPath = function() {
-    	return "data/" +
-        	((pageParams.page) ? pageParams.page : DEFAULT_PARAMS.page) +
-        	"/" +
-        	((pageParams.sub_page) ? pageParams.sub_page + "_" : "") +
-        	pageParams.lang + ".json";
+    this.getDataPath = function () {
+        return "data/" +
+            ((pageParams.page) ? pageParams.page : DEFAULT_PARAMS.page) +
+            "/" +
+            ((pageParams.sub_page) ? pageParams.sub_page + "_" : "") +
+            pageParams.lang + ".json";
     };
 
-    this.getSubMenuDataPath = function() {
-        return "data/" + 
-        	((pageParams.page) ? pageParams.page : DEFAULT_PARAMS.page) + 
-        	"/submenu_" + pageParams.lang + ".json";
+    this.getSubMenuDataPath = function () {
+        return "data/" +
+            ((pageParams.page) ? pageParams.page : DEFAULT_PARAMS.page) +
+            "/submenu_" + pageParams.lang + ".json";
     };
 });
