@@ -134,7 +134,7 @@ header {
       background-color: @backgroundColor;
       display: inline-block;
       height: 32px;
-//      padding: 0 25px 0 0;
+      //      padding: 0 25px 0 0;
       position: absolute;
       right: 28px;
       &::before {
@@ -181,44 +181,50 @@ header {
   }
   .mods {
     li {
+      position: relative;
       margin-bottom: 25px;
       overflow: hidden;
       width: 100%;
       a {
         color: @textColor;
       }
-    }
-    li > a {
-      &:first-child {
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: contain;
-        border-radius: 15px;
-        border: 1px solid @backgroundColor;
-        display: block;
-        float: left;
-        height: 150px;
-        margin-right: 20px;
-        width: 150px;
+      > a {
+        &:first-child {
+          background-position: center center;
+          background-repeat: no-repeat;
+          background-size: contain;
+          border-radius: 15px;
+          border: 1px solid @backgroundColor;
+          display: block;
+          float: left;
+          height: 150px;
+          margin-right: 20px;
+          width: 150px;
+        }
       }
-    }
-    h3 > a.info {
-      display: inline-block;
-      width: 24px;
-      height: 28px;
-      vertical-align: -3px;
-      float: right;
-      background: url('../images/info-24.png') center bottom no-repeat;
-    }
-    .tags {
-      text-align: right;
-      span {
-        background: url('../images/tag.png') no-repeat left center;
+      h3 > a.info {
         display: inline-block;
-        height: 24px;
-        margin: 0 5px;
-        padding-left: 28px;
-        text-decoration: underline;
+        width: 24px;
+        height: 28px;
+        vertical-align: -3px;
+        float: right;
+        background: url('../images/info-24.png') center bottom no-repeat;
+      }
+      p:last-of-type {
+        margin-bottom: 30px;
+      }
+      .tags {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        span {
+          background: url('../images/tag.png') no-repeat left center;
+          display: inline-block;
+          height: 24px;
+          margin: 0 5px;
+          padding-left: 28px;
+          text-decoration: underline;
+        }
       }
     }
   }
