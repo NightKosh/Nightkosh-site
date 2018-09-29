@@ -190,6 +190,9 @@ header .content #sub_menu li a.steam {
   background-position-x: -96px;
   background-position-y: -24px;
 }
+header .content #sub_menu li a.instagram {
+  background-position-x: -120px;
+}
 #wrapper {
   color: #15061a;
   overflow: hidden;
