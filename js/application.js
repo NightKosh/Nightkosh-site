@@ -2,7 +2,7 @@ var app = angular.module("app", []);
 
 app.service('PageService', function () {
     var DEFAULT_PARAMS = {
-        page: "about",
+        page: "mods",
         lang: "en"
     };
 
