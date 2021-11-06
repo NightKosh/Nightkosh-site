@@ -1,5 +1,4 @@
 var app = angular.module("app", []);
-var VERSION_POSTFIX = "?0.0.1";
 
 app.service('PageService', function () {
     var DEFAULT_PARAMS = {
