@@ -67,6 +67,36 @@
             "tag2" : "don't starve"
         }
     },
+    "rimworld" : {
+        "title" : "Rimworld mods",
+        "zero_cost_implants" : {
+            "title" : "Zero cost implants",
+            "description1" : "This mod consists of a few tiny patches to the original game, which reduce costs of all pawn's installed implants and any other artificial body parts to 0.",
+            "description2" : "As far as this is just a patches to the game, it make this mod compatible with any implants from other mods(at least in case they used default implants system).",
+            "tag1" : "xml",
+            "tag2" : "rimworld"
+        },
+        "brain_shock" : {
+            "title" : "Brain shock",
+            "description" : "This mod override BrainShock debuf by increases maximum consciousness value to 70%, so you pawns will not be insta downed by any kind of emi weapon.",
+            "tag1" : "xml",
+            "tag2" : "rimworld"
+        },
+        "meats_and_leather" : {
+            "title" : "Optimization: Meat and Leather",
+            "description1" : "This is a modified and improved version of Owlchemist's \"Optimization: Meats\" mod, and based on its sources.",
+            "description2" : "Unlike original version, this mod additionally replaces all \"Alien Race's\"(from any add on of \"alien framework\" mod) meat and leather by human meat and human leather.",
+            "description3" : "Additionally, it replaces all dinosaurs(from \"Dinosauria\" mod) leather by lizard leather.",
+            "tag1" : "xml",
+            "tag2" : "rimworld"
+        },
+        "enhanced_cocoa" : {
+            "title" : "Enhanced cocoa tree",
+            "description" : "A tiny mod which allows to growing cocoa trees under the roof.",
+            "tag1" : "xml",
+            "tag2" : "rimworld"
+        }
+    },
     "other" : {
         "title" : "Other",
         "pacman" : {
