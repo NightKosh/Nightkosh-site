@@ -84,7 +84,7 @@
         },
         "meats_and_leather" : {
             "title" : "Optimization: Meat and Leather",
-            "description1" : "Это модифицированная версия мода \"Optimization: Meats\" от \"Owlchemist\", основанная на его исходном коде\.",
+            "description1" : "Это модифицированная версия мода \"Optimization: Meats\" от \"Owlchemist\", основанная на его исходном коде.",
             "description2" : "В отличии от оригинала, этот мод дополнительно заменяет всё мясо и кожу пешек инопланетных рас(от аддонов к моду \"alien framework\") на кожу и мясо человека.",
             "description3" : "Так же он заменяет любую кожу динозавров(из мода \"Dinosauria\") кожей ящериц.",
             "tag1" : "xml",
