@@ -2,7 +2,7 @@
 app.controller("GlobalPageCtrl", ['$scope', '$http', 'PageService', function($scope, $http, PageService) {
     $scope.globalData = {};
 
-    $http.get('data/global/' + PageService.getPageParams().lang + '.json').success(function (data, status, headers, config) {
+    $http.get('data/global/' + PageService.getPageParams().lang + '.json' + VERSION_POSTFIX).success(function (data, status, headers, config) {
         $scope.globalData = data;
 
         $scope.globalData.enLink = PageService.getNewLocalizedLinkByParams("en");

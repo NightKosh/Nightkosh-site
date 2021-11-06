@@ -1,4 +1,5 @@
 var app = angular.module("app", []);
+var VERSION_POSTFIX = "?0.0.1";
 
 app.service('PageService', function () {
     var DEFAULT_PARAMS = {
@@ -61,13 +62,13 @@ app.service('PageService', function () {
             ((pageParams.page) ? pageParams.page : DEFAULT_PARAMS.page) +
             "/" +
             ((pageParams.sub_page) ? pageParams.sub_page : "index") +
-            ".html";
+            ".html" + VERSION_POSTFIX;
     };
 
     this.getSubMenuTemplatePath = function () {
         return "template/" +
             ((pageParams.page) ? pageParams.page : DEFAULT_PARAMS.page) +
-            "/submenu.html";
+            "/submenu.html" + VERSION_POSTFIX;
     };
 
     this.getDataPath = function () {
@@ -75,12 +76,12 @@ app.service('PageService', function () {
             ((pageParams.page) ? pageParams.page : DEFAULT_PARAMS.page) +
             "/" +
             ((pageParams.sub_page) ? pageParams.sub_page + "_" : "") +
-            pageParams.lang + ".json";
+            pageParams.lang + ".json" + VERSION_POSTFIX;
     };
 
     this.getSubMenuDataPath = function () {
         return "data/" +
             ((pageParams.page) ? pageParams.page : DEFAULT_PARAMS.page) +
-            "/submenu_" + pageParams.lang + ".json";
+            "/submenu_" + pageParams.lang + ".json" + VERSION_POSTFIX;
     };
 });
