@@ -14,6 +14,13 @@
             "tag1" : "java",
             "tag2" : "minecraft"
         },
+        "advanced_fishing" : {
+            "title" : "Advanced Fishing",
+            "description1" : "This mod adds new 43 fishes, recipe for luck potion, new \"Blazing Fishing Pole\"(which can be used for fishing in lava) and overrides fishing mechanics.",
+            "description2" : "All of the new and vanilla fishes can be catched only in specific types of biomes, dimensions and liquids.",
+            "tag1" : "java",
+            "tag2" : "minecraft"
+        },
         "lb" : {
             "title" : "Lava boat",
             "description" : "This mod add new boats: \"reinforced boat\" which can't be destroyed in a clash, \"lava boat\" which can swim in lava, and \"large boats\" which can be used to transport animals(pet must be tamed or leashed).",
